@@ -4014,14 +4014,14 @@ $(document).on('pageshow', '#pagedesign', function(){
   <div class="ui-grid-solo pri_list">
     <div class="ui-block-a">
 
-<ul id="">
-<li class="li_hei">  <p class="li_p_pri"><span class="fonn">Name of Police Station:</span><span class="fonnt">'+servant_educa.add_one+'</span></p></li><li class="li_hei">  <p class="li_p_pri"><span class="fonn">Address of Police Station:</span><span class="fonnt">'+servant_educa.add_two+'</span></p></li><li class="li_hei">   <p class="li_p_pri"><span class="fonn">Date of FIR:</span><span class="fonnt">'+servant_educa.pincode+'</span></p></li><li class="li_hei">   <p class="li_p_pri"><span class="fonn">FIR No:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
+<ul id="fir_details_disa">
+<!-- <li class="li_hei">  <p class="li_p_pri"><span class="fonn">Name of Police Station:</span><span class="fonnt">'+servant_educa.add_one+'</span></p></li><li class="li_hei">  <p class="li_p_pri"><span class="fonn">Address of Police Station:</span><span class="fonnt">'+servant_educa.add_two+'</span></p></li><li class="li_hei">   <p class="li_p_pri"><span class="fonn">Date of FIR:</span><span class="fonnt">'+servant_educa.pincode+'</span></p></li><li class="li_hei">   <p class="li_p_pri"><span class="fonn">FIR No:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
 <li class="li_hei">   <p class="li_p_pri"><span class="fonn">Investigating Officers details:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
 <li class="li_hei">   <p class="li_p_pri"><span class="fonn">Any delay in filing the FIR:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
 <li class="li_hei">   <p class="li_p_pri"><span class="fonn">Vehicle Details mentioned in the FIR:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
 <li class="li_hei">   <p class="li_p_pri"><span class="fonn">Details of the Charge sheet:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
 <li class="li_hei">   <p class="li_p_pri"><span class="fonn">State:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
-<li class="li_hei">   <p class="li_p_pri"><span class="fonn">City:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
+<li class="li_hei">   <p class="li_p_pri"><span class="fonn">City:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li> -->
 </ul>
 
    </div>
@@ -4077,24 +4077,23 @@ $(document).on('pageshow', '#pagedesign', function(){
   <div class="ui-grid-solo pri_list">
     <div class="ui-block-a">
                           <h1 style="color:black">Owner Details</h1>
-<ul id="">
-<li class="li_hei">  <p class="li_p_pri"><span class="fonn">Name :</span><span class="fonnt">'+servant_educa.add_one+'</span></p></li><li class="li_hei">  <p class="li_p_pri"><span class="fonn">Address :</span><span class="fonnt">'+servant_educa.add_two+'</span></p></li><li class="li_hei">   <p class="li_p_pri"><span class="fonn">Contact No:</span><span class="fonnt">'+servant_educa.pincode+'</span></p></li><li class="li_hei">   <p class="li_p_pri"><span class="fonn">Select Gender :</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
-<li class="li_hei">   <p class="li_p_pri"><span class="fonn">DOB:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
-<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Driving Licence No:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
-<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Issuing Authority:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
+<ul id="driver_owner_details_list">
+<!-- <li class="li_hei">  <p class="li_p_pri"><span class="fonn">Name :</span><span class="fonnt">'+servant_educa.name+'</span></p></li><li class="li_hei">  <p class="li_p_pri"><span class="fonn">Address :</span><span class="fonnt">'+servant_educa.address+'</span></p></li><li class="li_hei">   <p class="li_p_pri"><span class="fonn">Contact No:</span><span class="fonnt">'+servant_educa.con_no+'</span></p></li><li class="li_hei">   <p class="li_p_pri"><span class="fonn">Select Gender :</span><span class="fonnt">'+servant_educa.gender+'</span></p></li>
+<li class="li_hei">   <p class="li_p_pri"><span class="fonn">DOB:</span><span class="fonnt">'+servant_educa.dob+'</span></p></li>
+<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Driving Licence No:</span><span class="fonnt">'+servant_educa.dl_no+'</span></p></li>
+<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Issuing Authority:</span><span class="fonnt">'+servant_educa.issue_autho+'</span></p></li>
 <li class="li_hei">   <p class="li_p_pri"><span class="fonn">Date of issue:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
 '<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Date of Expiry:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
-<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Vehicles authorized to drive:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
-<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Badge No:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
+<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Vehicles authorized to drive:</span><span class="fonnt">'+servant_educa.vec_auth+'</span></p></li>
+<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Badge No:</span><span class="fonnt">'+servant_educa.bdg_no+'</span></p></li>
 <li class="li_hei">   <p class="li_p_pri"><span class="fonn">Date if Applicable:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
 <li class="li_hei">   <p class="li_p_pri"><span class="fonn">State:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
 <li class="li_hei">   <p class="li_p_pri"><span class="fonn">City:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
-<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Provide opposite Vehicle's driver details:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
-<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Driver involved in any accident in last 2 years:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
-<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Is the driver involved in any accident in the last two years:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
-<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Is the driver under any influence of intoxicating liquor or drugs:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>
-
-<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Any other relevant information:</span><span class="fonnt">'+servant_educa.city_name+'</span></p></li>'
+<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Provide opposite Vehicle's driver details:</span><span class="fonnt">'+servant_educa.opp_dr_dtls+'</span></p></li>
+<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Driver involved in any accident in last 2 years:</span><span class="fonnt">'+servant_educa.dr_invloved+'</span></p></li>
+<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Is the driver involved in any accident in the last two years:</span><span class="fonnt">'+servant_educa.dr_influ+'</span></p></li>
+<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Is the driver under any influence of intoxicating liquor or drugs:</span><span class="fonnt">'+servant_educa.othr_info+'</span></p></li>
+<li class="li_hei">   <p class="li_p_pri"><span class="fonn">Any other relevant information:</span><span class="fonnt">'+servant_educa.othr_info+'</span></p></li>' -->
 </ul>
 
    </div>
